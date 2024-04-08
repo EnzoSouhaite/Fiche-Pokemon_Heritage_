@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af7ddd2abcbc6844e95a711df1318f17, type: 3}
+  m_Name: PokemonDatabase
+  m_EditorClassIdentifier: 
+  datas:
+  - label: Noctali
+    caption: "Noctali (Umbreon en anglais et \u30D6\u30E9\u30C3\u30AD\u30FC en japonais)
+      est un Pok\xE9mon de la 2\xE8me g\xE9n\xE9ration de type Tenebres. Il est majoritairement
+      de couleur Noir. Il mesure 1.0 m (3.28 pieds) et p\xE8se 27.0 kg (59.52 livres).
+      Il fait partie de la cat\xE9gorie des Pok\xE9mon Lune."
+    name: Noctali
+    number: 197
+    size: 1
+    weight: 27
+    type: Dark
+    icon: {fileID: 21300000, guid: e4aa7381fa434414e8b6a3feb240830f, type: 3}
+    types: 05000000
+    attacks:
+    - label: 'Vibrobscur '
+      level: 0
+    - label: Tricherie
+      level: 0
+    - label: Ball-Ombre
+      level: 0
+    - label: "R\xE9g\xE9n\xE9ration"
+      level: 0
+    statsBase:
+      pv: 95
+      attack: 65
+      defense: 110
+      atkSpe: 60
+      defSpe: 130
+      speed: 65
+  - label: Mentali
+    caption: "Mentali (Espeon en anglais et \u30A8\u30FC\u30D5\u30A3 en japonais)
+      est un Pok\xE9mon de la 2\xE8me g\xE9n\xE9ration de type Psy. Il est majoritairement
+      de couleur Violet. Il mesure 0.9 m (2.95 pieds) et p\xE8se 26.5 kg (58.42 livres).
+      Il fait partie de la cat\xE9gorie des Pok\xE9mon Soleil."
+    name: Mentali
+    number: 196
+    size: 0.9
+    weight: 26.5
+    type: Psychic
+    icon: {fileID: 21300000, guid: 196d3e3bc86a16a40b6e90f99632d4c1, type: 3}
+    types: 07000000
+    attacks:
+    - label: Psyko
+      level: 0
+    - label: Hypnose
+      level: 0
+    - label: "M\xE9t\xE9ores"
+      level: 0
+    - label: Psykoud'Boul
+      level: 0
+    statsBase:
+      pv: 65
+      attack: 65
+      defense: 60
+      atkSpe: 130
+      defSpe: 95
+      speed: 110
+  - label: Phyllali
+    caption: "Phyllali (Leafeon en anglais et \u30EA\u30FC\u30D5\u30A3\u30A2 en japonais)
+      est un Pok\xE9mon de la 4\xE8me g\xE9n\xE9ration de type Plante. Il est majoritairement
+      de couleur Vert. Il mesure 1.0 m (3.28 pieds) et p\xE8se 25.5 kg (56.22 livres).
+      Il fait partie de la cat\xE9gorie des Pok\xE9mon Verdoyant."
+    name: Phyllali
+    number: 470
+    size: 1
+    weight: 25.5
+    type: Grass
+    icon: {fileID: 21300000, guid: 12edb41c1d7765941a9c4479f476e02b, type: 3}
+    types: 04000000
+    attacks: []
+    statsBase:
+      pv: 60
+      attack: 110
+      defense: 130
+      atkSpe: 60
+      defSpe: 65
+      speed: 95
+  - label: Givrali
+    caption: "Givrali (Glaceon en anglais et \u30B0\u30EC\u30A4\u30B7\u30A2 en japonais)
+      est un Pok\xE9mon de la 4\xE8me g\xE9n\xE9ration de type Glace. Il est majoritairement
+      de couleur Bleu. Il mesure 0.8 m (2.62 pieds) et p\xE8se 25.9 kg (57.1 livres).
+      Il fait partie de la cat\xE9gorie des Pok\xE9mon Poudreuse."
+    name: Givrali
+    number: 471
+    size: 0.8
+    weight: 25.9
+    type: Ice
+    icon: {fileID: 21300000, guid: bdd03e128a030344b9d5ef01ce271376, type: 3}
+    types: 0e000000
+    attacks: []
+    statsBase:
+      pv: 65
+      attack: 60
+      defense: 110
+      atkSpe: 130
+      defSpe: 95
+      speed: 65
+  - label: Nymphali
+    caption: "Nymphali (Sylveon en anglais et \u30CB\u30F3\u30D5\u30A3\u30A2 en japonais)
+      est un Pok\xE9mon de la 6\xE8me g\xE9n\xE9ration de type Fee. Il est majoritairement
+      de couleur Rose. Il mesure 1.0 m (3.28 pieds) et p\xE8se 23.5 kg (51.81 livres).
+      Il fait partie de la cat\xE9gorie des Pok\xE9mon Attachant."
+    name: Nymphali
+    number: 702
+    size: 1
+    weight: 23.5
+    type: Fairy
+    icon: {fileID: 21300000, guid: 165d616e781a29f4a9b97d7ab689f86b, type: 3}
+    types: 0b000000
+    attacks: []
+    statsBase:
+      pv: 95
+      attack: 65
+      defense: 65
+      atkSpe: 110
+      defSpe: 130
+      speed: 60
+  - label: Aquali
+    caption: "Aquali (Vaporeon en anglais et \u30B7\u30E3\u30EF\u30FC\u30BA en japonais)
+      est un Pok\xE9mon de la 1\xE8re g\xE9n\xE9ration de type Eau. Il est majoritairement
+      de couleur Bleu. Il mesure 1.0 m (3.28 pieds) et p\xE8se 29.0 kg (63.93 livres).
+      Il fait partie de la cat\xE9gorie des Pok\xE9mon Bulleur."
+    name: Aquali
+    number: 134
+    size: 1
+    weight: 29
+    type: Water
+    icon: {fileID: 21300000, guid: 69b51167481fd594bb4defe7962db0f8, type: 3}
+    types: 03000000
+    attacks: []
+    statsBase:
+      pv: 130
+      attack: 65
+      defense: 60
+      atkSpe: 110
+      defSpe: 95
+      speed: 65
+  - label: Voltali
+    caption: "Voltali (Jolteon en anglais et \u30B5\u30F3\u30C0\u30FC\u30B9 en japonais)
+      est un Pok\xE9mon de la 1\xE8re g\xE9n\xE9ration de type Electrik. Il est majoritairement
+      de couleur Jaune. Il mesure 0.8 m (2.62 pieds) et p\xE8se 24.5 kg (54.01 livres).
+      Il fait partie de la cat\xE9gorie des Pok\xE9mon Orage."
+    name: Voltali
+    number: 134
+    size: 0.8
+    weight: 24.5
+    type: Electrick
+    icon: {fileID: 21300000, guid: 92e1a797e4c15584991901ce650bd563, type: 3}
+    types: 11000000
+    attacks: []
+    statsBase:
+      pv: 65
+      attack: 65
+      defense: 60
+      atkSpe: 110
+      defSpe: 95
+      speed: 130
+  - label: Pyroli
+    caption: "Pyroli (Flareon en anglais et \u30D6\u30FC\u30B9\u30BF\u30FC en japonais)
+      est un Pok\xE9mon de la 1\xE8re g\xE9n\xE9ration de type Feu. Il est majoritairement
+      de couleur Rouge. Il mesure 0.9 m (2.95 pieds) et p\xE8se 25.0 kg (55.12 livres).
+      Il fait partie de la cat\xE9gorie des Pok\xE9mon Flamme."
+    name: Pyroli
+    number: 136
+    size: 0.9
+    weight: 25
+    type: Fire
+    icon: {fileID: 21300000, guid: 0a43a072c4368754fbb46cd601e0c48f, type: 3}
+    types: 02000000
+    attacks: []
+    statsBase:
+      pv: 65
+      attack: 130
+      defense: 60
+      atkSpe: 95
+      defSpe: 110
+      speed: 65
+  - label: "\xC9voli"
+    caption: "\xC9voli (Eevee en anglais et \u30A4\u30FC\u30D6\u30A4 en japonais)
+      est un Pok\xE9mon de la 1\xE8re g\xE9n\xE9ration de type Normal. Il est majoritairement
+      de couleur Brun. Il mesure 0.3 m (0.98 pieds) et p\xE8se 6.5 kg (14.33 livres).
+      Il fait partie de la cat\xE9gorie des Pok\xE9mon \xC9volutif."
+    name: "\xC9voli"
+    number: 133
+    size: 0.3
+    weight: 6.5
+    type: Normal
+    icon: {fileID: 21300000, guid: 446f6858079e12341912a33ec2adb90f, type: 3}
+    types: 01000000
+    attacks: []
+    statsBase:
+      pv: 55
+      attack: 55
+      defense: 50
+      atkSpe: 45
+      defSpe: 65
+      speed: 55
+  - label: "Pt\xE9ra"
+    caption: "Pt\xE9ra (Aerodactyl en anglais et \u30D7\u30C6\u30E9 en japonais)
+      est un Pok\xE9mon de la 1\xE8re g\xE9n\xE9ration de type Roche et Vol. Il est
+      majoritairement de couleur Violet. Il mesure 1.8 m (5.9 pieds) et p\xE8se 59.0
+      kg (130.07 livres). Il fait partie de la cat\xE9gorie des Pok\xE9mon Fossile."
+    name: "Pt\xE9ra"
+    number: 142
+    size: 1.8
+    weight: 59
+    type: Fly & Rock
+    icon: {fileID: 21300000, guid: 8ec95b46bbe95b54f87b57d6cb1467bd, type: 3}
+    types: 090000000f000000
+    attacks: []
+    statsBase:
+      pv: 80
+      attack: 105
+      defense: 65
+      atkSpe: 60
+      defSpe: 75
+      speed: 130

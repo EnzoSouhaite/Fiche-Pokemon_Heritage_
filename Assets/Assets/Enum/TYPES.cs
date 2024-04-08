@@ -1,0 +1,22 @@
+public enum TYPES
+{
+    NONE,
+    NORMAL,
+    FEU,
+    EAU,
+    PLANTE,
+    TENEBRE,
+    SPECTRE,
+    PSY,
+    SOL,
+    ROCHE,
+    ACIER,
+    FEE,
+    COMBAT,
+    DRAGON,
+    GLACE,
+    VOL,
+    POISON,
+    ELECTRIQUE,
+    INSECTE
+}

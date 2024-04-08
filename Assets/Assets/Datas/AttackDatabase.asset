@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7800a675f913f5a48a6239c6d9444a81, type: 3}
+  m_Name: AttackDatabase
+  m_EditorClassIdentifier: 
+  datas:
+  - label: 'Vibrobscur '
+    caption: "Le lanceur projette une horrible aura charg\xE9e de pens\xE9es mal\xE9fiques,
+      ce qui peut aussi apeurer la cible.\r\n"
+    category: 1
+    types: 5
+    puissance: 80
+    precision: 100
+  - label: Tricherie
+    caption: "Le lanceur utilise la force de la cible. Plus l\u2019Attaque de celle-ci
+      est \xE9lev\xE9e, plus le lanceur inflige de d\xE9g\xE2ts.\r\n"
+    category: 0
+    types: 5
+    puissance: 95
+    precision: 100
+  - label: Ball-Ombre
+    caption: "Le lanceur projette une grande ombre sur la cible qui peut aussi faire
+      baisser la D\xE9fense Sp\xE9ciale de celle-ci.\r"
+    category: 1
+    types: 6
+    puissance: 80
+    precision: 100
+  - label: "R\xE9g\xE9n\xE9ration"
+    caption: "Soigne un empoisonnement, une paralysie ou une br\xFBlure.\r"
+    category: 2
+    types: 1
+    puissance: 0
+    precision: 100
+  - label: 'Psyko '
+    caption: "Une puissante force t\xE9l\xE9kin\xE9tique frappe la cible, ce qui
+      peut aussi faire baisser sa D\xE9fense Sp\xE9ciale.\r\r"
+    category: 1
+    types: 7
+    puissance: 90
+    precision: 100
+  - label: Hypnose
+    caption: "Le lanceur hypnotise la cible pour la plonger dans un profond sommeil.\r\r\r"
+    category: 2
+    types: 7
+    puissance: 0
+    precision: 60
+  - label: "M\xE9t\xE9ores"
+    caption: "Le lanceur envoie des rayons d\u2019\xE9toiles qui touchent toujours
+      la cible.\r\r\r\r"
+    category: 1
+    types: 1
+    puissance: 60
+    precision: 100
+  - label: 'Psykoud''Boul '
+    caption: "Le lanceur concentre sa volont\xE9 et donne un coup de t\xEAte \xE0
+      la cible, ce qui peut aussi apeurer celle-ci.\r\n\r\r\r\r"
+    category: 0
+    types: 7
+    puissance: 80
+    precision: 90
